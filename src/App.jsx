@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Todo from './components/Todo'
 import Accordian from './components/accordian/index';
 import RandomColor from './components/random-color/RandomColor';
+import StarRating from './components/start-rating/StarRating';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,9 +15,9 @@ function App() {
 
     {/* <Accordian/> */}
 
-    <RandomColor/>
+    {/* <RandomColor/> */}
 
-
+    <StarRating noOfStarts={10}/>
 
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
