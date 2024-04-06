@@ -2,7 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Todo from './components/Todo'
-import Accordian from './components/accordian/index'
+import Accordian from './components/accordian/index';
+import RandomColor from './components/random-color/RandomColor';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +11,13 @@ function App() {
   return (
     <>
 
-    <Accordian/>
+
+    {/* <Accordian/> */}
+
+    <RandomColor/>
+
+
+
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
