@@ -8,6 +8,7 @@ import StarRating from './components/start-rating/StarRating';
 import ImageSlider from './components/image-slider/ImageSlider';
 import LoadMore from './components/load-more-button/LoadMore';
 import Menu from './components/tree-view/Menu';
+import QrCode from './components/qr-code/QrCode';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,8 +27,9 @@ function App() {
 
     {/* <LoadMore/> */}
 
-    <Menu/>
+    {/* <Menu/> */}
 
+    <QrCode/>
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
