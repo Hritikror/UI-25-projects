@@ -9,6 +9,7 @@ import ImageSlider from './components/image-slider/ImageSlider';
 import LoadMore from './components/load-more-button/LoadMore';
 import Menu from './components/tree-view/Menu';
 import QrCode from './components/qr-code/QrCode';
+import DarkLightTheme from './components/darkLightTheme/DarkLightTheme';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,7 +30,9 @@ function App() {
 
     {/* <Menu/> */}
 
-    <QrCode/>
+    {/* <QrCode/> */}
+
+    <DarkLightTheme/>
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
