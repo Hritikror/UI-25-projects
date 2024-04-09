@@ -11,6 +11,7 @@ import Menu from './components/tree-view/Menu';
 import QrCode from './components/qr-code/QrCode';
 import DarkLightTheme from './components/darkLightTheme/DarkLightTheme';
 import CustomScrollIndicator from './components/scroll-indicator/CustomScrollIndicator'
+import ScrollLazy from './components/scroll-lazy-loading/ScrollLazy';
 
 
 function App() {
@@ -36,8 +37,9 @@ function App() {
 
     {/* <DarkLightTheme/> */}
 
-    <CustomScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+    {/* <CustomScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
+    <ScrollLazy/>
 
 
       {/* <div>
