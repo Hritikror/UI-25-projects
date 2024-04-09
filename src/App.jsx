@@ -14,6 +14,7 @@ import CustomScrollIndicator from './components/scroll-indicator/CustomScrollInd
 import ScrollLazy from './components/scroll-lazy-loading/ScrollLazy';
 import TabTest from './components/custom-tabs/TabTest';
 import ModalTest from './components/custom-modal-popup/ModalParent';
+import Github from './components/github-profile-finder/Github';
 
 
 function App() {
@@ -45,7 +46,17 @@ function App() {
 
     {/* <TabTest/> */}
 
-    <ModalTest/>
+    {/* <ModalTest/> */}
+
+    <Github/>
+
+
+
+
+
+
+
+    
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
