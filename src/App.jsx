@@ -15,6 +15,7 @@ import ScrollLazy from './components/scroll-lazy-loading/ScrollLazy';
 import TabTest from './components/custom-tabs/TabTest';
 import ModalTest from './components/custom-modal-popup/ModalParent';
 import Github from './components/github-profile-finder/Github';
+import Game from './components/tic-tact-toe/Game';
 
 
 function App() {
@@ -48,9 +49,9 @@ function App() {
 
     {/* <ModalTest/> */}
 
-    <Github/>
+    {/* <Github/> */}
 
-
+    <Game />
 
 
 
