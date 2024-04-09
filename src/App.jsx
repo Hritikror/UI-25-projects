@@ -12,6 +12,7 @@ import QrCode from './components/qr-code/QrCode';
 import DarkLightTheme from './components/darkLightTheme/DarkLightTheme';
 import CustomScrollIndicator from './components/scroll-indicator/CustomScrollIndicator'
 import ScrollLazy from './components/scroll-lazy-loading/ScrollLazy';
+import TabTest from './components/custom-tabs/TabTest';
 
 
 function App() {
@@ -39,8 +40,9 @@ function App() {
 
     {/* <CustomScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
-    <ScrollLazy/>
+    {/* <ScrollLazy/> */}
 
+    <TabTest/>
 
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
