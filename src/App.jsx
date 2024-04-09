@@ -10,6 +10,8 @@ import LoadMore from './components/load-more-button/LoadMore';
 import Menu from './components/tree-view/Menu';
 import QrCode from './components/qr-code/QrCode';
 import DarkLightTheme from './components/darkLightTheme/DarkLightTheme';
+import CustomScrollIndicator from './components/scroll-indicator/CustomScrollIndicator'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,7 +34,12 @@ function App() {
 
     {/* <QrCode/> */}
 
-    <DarkLightTheme/>
+    {/* <DarkLightTheme/> */}
+
+    <CustomScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+
+
+
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
