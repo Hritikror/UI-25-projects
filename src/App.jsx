@@ -16,6 +16,8 @@ import TabTest from './components/custom-tabs/TabTest';
 import ModalTest from './components/custom-modal-popup/ModalParent';
 import Github from './components/github-profile-finder/Github';
 import Game from './components/tic-tact-toe/Game';
+import UseOnClickOutsideTest from './components/use-outside-click/test';
+import Temp from '../temp';
 
 
 function App() {
@@ -51,9 +53,11 @@ function App() {
 
     {/* <Github/> */}
 
-    <Game />
+    {/* <Game /> */}
 
+    {/* <UseOnClickOutsideTest/> */}
 
+    <Temp/>
 
 
 
